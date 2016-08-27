@@ -8,19 +8,32 @@ var unanswered = 0;
 
 
 
-$ (document).ready(function() {
+$(document).ready(function() {
 
 	//make the start screen button
 
-	function startbutton() {
+	
 		//$(".form").html("<button> Start! </button>");
-		var start = "<button class= 'starter'>Begin!</button>";
+	var start = "<button class='starter'>'Begin!'</button>";
 
-		$(".container").html(start);
+	$(".container").html(start);
+
+	$(".starter").on("click", function()
+
+		$(".container").html(<div>wookies</div>);
 
 
 
-	}
+
+		//nothing works
+
+
+		
+
+
+
+	
+
 
 
 
